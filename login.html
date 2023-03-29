@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/login.css">
+        <title>Login</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="login">
+
+            <form action="/php/login.php" id="myForm" onsubmit="signIn(event);" autocomplete="off" >
+                <img src="assets/logo.png" alt=""><br><br><br>
+                <i class="fa-solid fa-user user"></i>
+                <input type="text" name="email" id="email" placeholder="Email Address" required autocomplete="off">
+                <label for="email"></label><br><br>
+                <i class="fa-solid fa-lock lock"></i>
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required autocomplete="off">
+                <label for="password"></label><br><br>  
+                <a class="forgot" href="">Forgot password?</a><br>
+                <button type="button " name="submit" id="submit" value="submit">login</button>
+
+                <p>Don’t have an account? <a class="sign" href="register.html">Sign up</a></p>
+            </form>
+        </div>
+        <script type="text/javascript" src="js/login.js"></script>
+        <script src="https://kit.fontawesome.com/102326e940.js" crossorigin="anonymous"></script>
+    </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+            rel="stylesheet">
+</head>
+<body>
+    <div class="login">
+
+        <form action="/php/login.php" id="myForm" onsubmit="signIn(event);" autocomplete="off" >
+    <div class="wrapper">
+        <div class="logo">
+            <img src="assets/back.png" alt="">
+        </div>
+        <div class="text-center mt-4 name">
+            Anlion
+        </div>
+        <form class="p-3 mt-3">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="email" id="email" placeholder="Email Address" required autocomplete="off">
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required autocomplete="off">
+            </div>
+            <button type="button " name="submit" id="submit" value="submit">login</button>
+        </form>
+        <div class="text-center fs-6">
+            Don’t have an account? <a href="register.html">Sign up</a>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script src="https://kit.fontawesome.com/102326e940.js" crossorigin="anonymous"></script>
+</body>
+</html>
